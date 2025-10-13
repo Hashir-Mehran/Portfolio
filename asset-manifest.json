@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.7edda102.css",
+    "main.js": "/Portfolio/static/js/main.1e2d7246.js",
+    "static/media/shoppinglyx.png": "/Portfolio/static/media/shoppinglyx.aabbc0bbea619ea0a56d.png",
+    "static/media/bird.png": "/Portfolio/static/media/bird.ea47296c82aa6bf8e4ac.png",
+    "static/media/youtube.png": "/Portfolio/static/media/youtube.c86188d190011cd05b7b.png",
+    "static/media/labour.png": "/Portfolio/static/media/labour.228bad3c41204ed41b65.png",
+    "static/media/mobile.png": "/Portfolio/static/media/mobile.76d47691ffe7869b2cf3.png",
+    "static/media/css.png": "/Portfolio/static/media/css.40dd6ef93a310eb85ba8.png",
+    "static/media/myImage.jpg": "/Portfolio/static/media/myImage.9bcd4478342bff805e76.jpg",
+    "index.html": "/Portfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.7edda102.css",
+    "static/js/main.1e2d7246.js"
+  ]
+}
