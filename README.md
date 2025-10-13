@@ -20,10 +20,5 @@ Check out my live portfolio here: [My Portfolio](https://kingeagle1002.github.io
 ## 📫 Contact Me
 
 - **Email:** misterperfect970@gmail.com 
-- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/hashir-mehran)  
-
----
-
-**Note:**  
-Ye README file aapki GitHub repository me `README.md` ke naam se save karein. GitHub automatically isay show karega.  
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/hashir-mehran)   
 
