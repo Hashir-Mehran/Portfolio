@@ -185,7 +185,7 @@ const Navbar = () => {
             </GithubButton>
 
             <GithubButton
-              href={process.env.PUBLIC_URL + "/Resume1.pdf"}
+              href={process.env.PUBLIC_URL + "/React Resume.pdf"}
               target="_Blank"
               style={{
                 background: theme.primary,
@@ -199,12 +199,12 @@ const Navbar = () => {
 
             <ButtonContainer>
               <GithubButton href={Bio.github} target="_Blank">
-                Github Profile
+                Github 
               </GithubButton>
             </ButtonContainer>
 
             <ButtonContainer>
-              <GithubButton href={process.env.PUBLIC_URL + "/Resume1.pdf"} target="_Blank">
+              <GithubButton href={process.env.PUBLIC_URL + "/React Resume.pdf"} target="_Blank">
                 Resume
               </GithubButton>
             </ButtonContainer>
