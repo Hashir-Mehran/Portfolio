@@ -292,8 +292,8 @@ export const projects = [
       "Welcome to Shoppinglyx, an innovative e-commerce platform built with Python Django, where smart shopping and seamless experiences are always at your fingertips. Shoppinglyx is more than just an online store. It is a modern, dynamic marketplace where customers can explore products effortlessly, and sellers can manage their business with ease. From browsing to checkout, every feature is crafted to deliver speed, security, and convenience. It is a digital space where technology meets lifestyle, ensuring that both buyers and vendors make the most out of every shopping moment.",
     image:shoppinglyx,
     tags: ["Html", "Css" , "Javascript" , "Django", "Python", "Bootstrap","FastApi"],
-    category: "web app",
-    webapp: "https://www.kclub.ie/",
+    // category: "web app",
+    // webapp: "https://www.kclub.ie/",
   },
   {
     id: 5,
@@ -327,8 +327,8 @@ export const projects = [
     image:mobile,
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Laragon", "PyCharm", "Responsive Design"],
 
-    category: "web app",
-    webapp: "https://www.jacadatravel.com/",
+    // category: "web app",
+    // webapp: "https://www.jacadatravel.com/",
   },
  
 ];
