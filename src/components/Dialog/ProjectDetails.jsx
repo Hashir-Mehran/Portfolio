@@ -236,9 +236,9 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
           )}
           <ButtonGroup>
             
-            {/* <Button href={project?.webapp} target="new">
+            <Button href={project?.webapp} target="new">
               View Live App
-            </Button> */}
+            </Button>
           </ButtonGroup>
         </Wrapper>
       </Container>

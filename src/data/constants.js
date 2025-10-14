@@ -207,27 +207,6 @@ export const experiences = [
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
-  // {
-  //   id: 1,
-  //   img: "data:image/png;base64,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",
-  // role: "Frontend Developer",
-  // company: "Freelance",
-  // date: "Aug 2023 - present",
-  // desc: "Developed responsive and modern web applications using React.js and Next.js. Worked on UI/UX improvements with Figma designs, optimized frontend performance, and improved user experience by reducing page load times. Integrated REST APIs for dynamic content rendering.",
-  // skills: [
-  //   "React Js",
-  //   "Next Js",
-  //   "HTML",
-  //   "CSS",
-  //   "JavaScript",
-  //   "Jquery",
-  //   "Ajax",
-  //   "REST API",
-  //   "Figma"
-     
-  //   ],
-  //   doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
-  // },
  
  
  
@@ -284,8 +263,8 @@ export const projects = [
     "Supabase",
     "YouTube Data API v3"
   ],
-    // category: "web app",
-    // webapp: "https://moustachescapes.com/",
+    category: "web app",
+    webapp: "https://sprightly-youtube-9f73b4.netlify.app/",
   },
    {
     id: 9,
@@ -302,8 +281,8 @@ export const projects = [
     "Lucide Icons",
     "Supabase",
     ],
-    // category: "web app",
-    // webapp: "https://moustachescapes.com/",
+    category: "web app",
+    webapp: "https://moustachescapes.com/",
   },
   {
     id: 4,
@@ -313,8 +292,8 @@ export const projects = [
       "Welcome to Shoppinglyx, an innovative e-commerce platform built with Python Django, where smart shopping and seamless experiences are always at your fingertips. Shoppinglyx is more than just an online store. It is a modern, dynamic marketplace where customers can explore products effortlessly, and sellers can manage their business with ease. From browsing to checkout, every feature is crafted to deliver speed, security, and convenience. It is a digital space where technology meets lifestyle, ensuring that both buyers and vendors make the most out of every shopping moment.",
     image:shoppinglyx,
     tags: ["Html", "Css" , "Javascript" , "Django", "Python", "Bootstrap","FastApi"],
-    // category: "web app",
-    // webapp: "https://www.kclub.ie/",
+    category: "web app",
+    webapp: "https://www.kclub.ie/",
   },
   {
     id: 5,
@@ -324,8 +303,8 @@ export const projects = [
     " Brewly Café offers a warm and inviting digital space where coffee lovers can explore artisanal blends, brewing tips, and signature recipes—from rich espressos and creamy lattes to exotic cold brews. With an elegant design built in HTML, CSS, and JavaScript, the site serves as both a sensory escape and a convenient guide, inspiring visitors to discover new flavors and enjoy the artistry of coffee culture from the comfort of their homes",
     image:css,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    // category: "web app",
-    // webapp: "https://www.abercrombiekent.com/",
+    category: "web app",
+    webapp: "https://strong-coffee-ef294a.netlify.app/",
   },
    {
     id: 6,
@@ -336,8 +315,8 @@ export const projects = [
     image:bird,
     tags: ["JavaScript", "HTML", "CSS", "Bootstrap"],
     category: "web app",
-    // github: "https://github.com/rishavchanda/Todo-Web-App",
-    // webapp: "https://fitclub-1my.pages.dev/",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://teal-flappybird-8b165a.netlify.app/",
   },
   {
     id: 5,
@@ -348,21 +327,9 @@ export const projects = [
     image:mobile,
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Laragon", "PyCharm", "Responsive Design"],
 
-    // category: "web app",
-    // webapp: "https://www.jacadatravel.com/",
+    category: "web app",
+    webapp: "https://www.jacadatravel.com/",
   },
-  // {
-  //   id: 6,
-  //   title: "EGPayment",
-  //   date: "Jun 2021",
-  //   description:
-  //   "EG Payment is a digital payments application based in India. It provides services for mobile and DTH recharges, as well as bill payments for various utilities. Additionally, it offers a digital gold investment option starting from as little as ₹10.",
-  //   image:
-  //   "https://egpayment.com/front_theme/assets/img/logo.png",
-  //   tags: ["FrontEnd - Flutter", "Backend - Laravell","REST API's" ],
-  //   category: "web app",
-  //   webapp: "https://egpayment.com/",
-  // },
  
 ];
 
