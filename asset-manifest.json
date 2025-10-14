@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.7edda102.css",
-    "main.js": "/Portfolio/static/js/main.ec06e14c.js",
+    "main.js": "/Portfolio/static/js/main.f9f18e16.js",
     "static/media/shoppinglyx.png": "/Portfolio/static/media/shoppinglyx.aabbc0bbea619ea0a56d.png",
     "static/media/bird.png": "/Portfolio/static/media/bird.ea47296c82aa6bf8e4ac.png",
     "static/media/youtube.png": "/Portfolio/static/media/youtube.c86188d190011cd05b7b.png",
@@ -12,6 +12,6 @@
   },
   "entrypoints": [
     "static/css/main.7edda102.css",
-    "static/js/main.ec06e14c.js"
+    "static/js/main.f9f18e16.js"
   ]
 }
