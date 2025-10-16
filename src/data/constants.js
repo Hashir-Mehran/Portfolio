@@ -1,5 +1,5 @@
 // import labour from "../images/labour.png";
-import shoppinglyx from "../images/shoppinglyx.png";
+import pixels from "../images/pixels.png";
 import css from "../images/css.png";
 import bird from "../images/bird.png";
 import mobile from "../images/mobile.png";
@@ -12,7 +12,7 @@ export const Bio = {
     "Full Stack Developer",
     "Programmer",
   ],
- description: "I am a  Full Stack Developer from Pakistan  with 2+ years of experience, I've delivered over 45 custom software and web solutions for 20+ global clients. I specialize in E-commerce, Web Apps, CRMs, and mobile apps (Android/iOS), using Next.js, React.js,Node.js , Laravell , Flutter  and  to ensure clean code and fast project delivery.",
+ description: "I am a Full Stack Developer from Pakistan with 2+ years of experience, I've delivered over 45 custom software and web solutions for 20+ global clients. I specialize in E-commerce, Web Apps, Business Applications, Real Estate Websites and team Work Managment Web App using Next.js, React.js,Node.js , Laravell, PHP, Python, Django and Flutter to ensure clean code and fast project delivery.",
 
   github: "https://github.com/KingEagle1002",
   resume: 
@@ -264,7 +264,7 @@ export const projects = [
     "YouTube Data API v3"
   ],
     category: "web app",
-    webapp: "https://sprightly-youtube-9f73b4.netlify.app/",
+    webapp: "https://youtube-clone1000.netlify.app/",
   },
   //  {
   //   id: 9,
@@ -286,14 +286,14 @@ export const projects = [
   // },
   {
     id: 4,
-    title: "Shoppinglyx",
+    title: "Pixels",
     date: "Jun 2023",
     description:
-      "Welcome to Shoppinglyx, an innovative e-commerce platform built with Python Django, where smart shopping and seamless experiences are always at your fingertips. Shoppinglyx is more than just an online store. It is a modern, dynamic marketplace where customers can explore products effortlessly, and sellers can manage their business with ease. From browsing to checkout, every feature is crafted to deliver speed, security, and convenience. It is a digital space where technology meets lifestyle, ensuring that both buyers and vendors make the most out of every shopping moment.",
-    image:shoppinglyx,
-    tags: ["Html", "Css" , "Javascript" , "Django", "Python", "Bootstrap","FastApi"],
-    // category: "web app",
-    // webapp: "https://www.kclub.ie/",
+      "Welcome to Pixels, a creative and visually stunning web project built with modern technologies, where design meets performance. Pixels is more than just a website — it’s a refined digital experience crafted to impress. With its responsive layout, clean interface, and fast loading speed, it ensures seamless browsing across all devices. Every element is designed to blend elegance, usability, and innovation, making Pixels a perfect example of modern web craftsmanship. From interactive galleries to smooth animations, Pixels showcases the power of HTML, CSS, and JavaScript in creating engaging user experiences. Whether you’re exploring portfolios, reading articles, or simply enjoying the aesthetics, Pixels delivers a polished and immersive journey through the digital world.",
+    image:pixels,
+    tags: ["ReactJs", "Tailwind CSS", "Javascript", "HTML", "CSS", "PrebuildUi","Responsive Design"],
+    category: "web app",
+    webapp: "https://hashir-mehran.github.io/Pixels/",
   },
   {
     id: 5,
@@ -304,7 +304,7 @@ export const projects = [
     image:css,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     category: "web app",
-    webapp: "https://strong-coffee-ef294a.netlify.app/",
+    webapp: "https://coffee-0fe5d0.netlify.app/",
   },
    {
     id: 6,
@@ -316,20 +316,20 @@ export const projects = [
     tags: ["JavaScript", "HTML", "CSS", "Bootstrap"],
     category: "web app",
     github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://teal-flappybird-8b165a.netlify.app/",
+    webapp: "https://flappy-bird-a2c277.netlify.app/",
   },
-  {
-    id: 5,
-    title: "Mobile Shop",
-    date: "Apr 2025",
-    description:
-    " A modern e-commerce platform for mobile phones, built using Laragon and PyCharm. The site features a clean and responsive design, showcasing the latest smartphones with detailed specifications, pricing, and offers. Customers can browse categories, compare models, and explore product details with ease. With a focus on user-friendly navigation and performance, the website delivers a seamless shopping experience tailored for mobile enthusiasts",
-    image:mobile,
-    tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Laragon", "PyCharm", "Responsive Design"],
+  // {
+  //   id: 5,
+  //   title: "Mobile Shop",
+  //   date: "Apr 2025",
+  //   description:
+  //   " A modern e-commerce platform for mobile phones, built using Laragon and PyCharm. The site features a clean and responsive design, showcasing the latest smartphones with detailed specifications, pricing, and offers. Customers can browse categories, compare models, and explore product details with ease. With a focus on user-friendly navigation and performance, the website delivers a seamless shopping experience tailored for mobile enthusiasts",
+  //   image:mobile,
+  //   tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Laragon", "PyCharm", "Responsive Design"],
 
-    // category: "web app",
-    // webapp: "https://www.jacadatravel.com/",
-  },
+  //   // category: "web app",
+  //   // webapp: "https://www.jacadatravel.com/",
+  // },
  
 ];
 
