@@ -108,33 +108,33 @@ const Projects = ({ openModal, setOpenModal }) => {
           apps. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup>
-          {/* <ToggleButton
+           <ToggleButton
             active={toggle === "all"}
             onClick={() => setToggle("all")}
           >
             ALL
-          </ToggleButton> */}
-          {/* <Divider /> */}
-          {/* <ToggleButton
+          {/* </ToggleButton> 
+          <Divider />
+          <ToggleButton
             active={toggle === "web app"}
             onClick={() => setToggle("web app")}
-          >
+          > */}
             
-          </ToggleButton> */}
-          {/* <Divider /> */}
-          {/* <ToggleButton
-            active={toggle === "android app"}
-            onClick={() => setToggle("android app")}
+          </ToggleButton> 
+          <Divider /> 
+          <ToggleButton
+            active={toggle === "react app"}
+            onClick={() => setToggle("react app")}
           >
-            ANDROID APP'S
-          </ToggleButton> */}
-          {/* <Divider /> */}
-          {/* <ToggleButton
-            active={toggle === "machine learning"}
-            onClick={() => setToggle("machine learning")}
+            React App
+          </ToggleButton> 
+          <Divider />
+           <ToggleButton
+            active={toggle === "frontend app"}
+            onClick={() => setToggle("frontend app")}
           >
-            MACHINE LEARNING
-          </ToggleButton> */}
+            UI/UX Design App
+          </ToggleButton> 
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&

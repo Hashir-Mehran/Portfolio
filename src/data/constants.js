@@ -263,7 +263,7 @@ export const projects = [
     "Lucide Icons",
     "MongoDB",
   ],
-    category: "web app",
+    category: "react app",
     webapp: "https://resume-builder-l8y7.vercel.app/",
   },
  {
@@ -282,7 +282,7 @@ export const projects = [
     "Supabase",
     "YouTube Data API v3"
   ],
-    category: "web app",
+    category: "react app",
     webapp: "https://youtube-clone1000.netlify.app/",
   },
   {
@@ -293,9 +293,9 @@ export const projects = [
     "Welcome to Pixels, a creative and visually stunning web project built with modern technologies, where design meets performance. Pixels is more than just a website — it’s a refined digital experience crafted to impress. With its responsive layout, clean interface, and fast loading speed, it ensures seamless browsing across all devices. Every element is designed to blend elegance, usability, and innovation, making Pixels a perfect example of modern web craftsmanship. From interactive galleries to smooth animations, Pixels showcases the power of HTML, CSS, and JavaScript in creating engaging user experiences. Whether you’re exploring portfolios, reading articles, or simply enjoying the aesthetics, Pixels delivers a polished and immersive journey through the digital world.",
     image:pixels,
     tags: ["ReactJs", "Tailwind CSS", "Javascript", "HTML", "CSS", "PrebuildUi","Responsive Design"],
-    category: "web app",
+    category: "react app",
     webapp: "https://hashir-mehran.github.io/Pixels/",
-    
+
     //  {
     //   id: 9,
     //   title: "LabourPk",
@@ -323,7 +323,7 @@ export const projects = [
       "Welcome to Jessica, a creative and visually captivating web + portfolio application built with modern technologies where design meets functionality. Jessica is more than just a portfolio — it’s a personal digital identity that highlights creativity, professionalism, and performance.With its responsive layout, elegant UI, and smooth navigation, Jessica ensures a seamless browsing experience across all devices. Every section — from the About and Skills pages to the Project Showcase and Contact Form — is crafted with precision to reflect both aesthetic appeal and usability.Built using HTML, CSS, and JavaScript, Jessica demonstrates the perfect blend of visual design and technical expertise. Interactive animations, dynamic galleries, and an intuitive interface make it stand out as a true example of modern web design.Whether visitors are exploring showcased projects, reading portfolio details, or connecting through the contact form, Jessica delivers a polished, engaging, and memorable user experience — redefining how personal portfolios come to life on the web.",
     image:jessica,
     tags: ["HTML", " CSS", "Javascript","Responsive Design"],
-    category: "web app",
+    category: "frontend app",
     webapp: "https://jessica112.netlify.app/",
   },
   {
@@ -334,21 +334,21 @@ export const projects = [
     " Brewly Café offers a warm and inviting digital space where coffee lovers can explore artisanal blends, brewing tips, and signature recipes—from rich espressos and creamy lattes to exotic cold brews. With an elegant design built in HTML, CSS, and JavaScript, the site serves as both a sensory escape and a convenient guide, inspiring visitors to discover new flavors and enjoy the artistry of coffee culture from the comfort of their homes",
     image:css,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    category: "web app",
+    category: "frontend app",
     webapp: "https://coffee-0fe5d0.netlify.app/",
   },
-   {
-    id: 6,
-    title: "Flappy Bird Game",
-    date: "jan 2025",
-    description:
-      "A fun and addictive Flappy Bird clone built in Java, delivering smooth gameplay and responsive controls. Players tap to guide the bird through challenging obstacles while chasing high scores. With clean object-oriented design and real-time collision detection, the game runs seamlessly, showcasing both engaging mechanics and core Java programming concepts.",
-    image:bird,
-    tags: ["JavaScript", "HTML", "CSS", "Bootstrap"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://flappy-bird-a2c277.netlify.app/",
-  },
+  //  {
+  //   id: 6,
+  //   title: "Flappy Bird Game",
+  //   date: "jan 2025",
+  //   description:
+  //     "A fun and addictive Flappy Bird clone built in Java, delivering smooth gameplay and responsive controls. Players tap to guide the bird through challenging obstacles while chasing high scores. With clean object-oriented design and real-time collision detection, the game runs seamlessly, showcasing both engaging mechanics and core Java programming concepts.",
+  //   image:bird,
+  //   tags: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+  //   category: "frontend app",
+  //   github: "https://github.com/rishavchanda/Todo-Web-App",
+  //   webapp: "https://flappy-bird-a2c277.netlify.app/",
+  // },
   // {
   //   id: 5,
   //   title: "Mobile Shop",
