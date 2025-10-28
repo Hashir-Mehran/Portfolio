@@ -30,7 +30,7 @@ const Title = styled.div`
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  color: #fff;
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 32px;
@@ -41,7 +41,7 @@ const Desc = styled.div`
   font-size: 18px;
   text-align: center;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
+  color: #fff;
   @media (max-width: 768px) {
     font-size: 16px;
   }
@@ -80,7 +80,7 @@ const SkillTitle = styled.div`
   font-weight: 600;
   margin-bottom: 20px;
   text-align: center;
-  color: ${({ theme }) => theme.text_secondary};
+  color: #fff;
 `;
 
 const SkillList = styled.div`
@@ -93,8 +93,8 @@ const SkillList = styled.div`
 const SkillItem = styled.div`
   font-size: 16px;
   font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 80};
-  border: 1px solid ${({ theme }) => theme.text_primary + 80};
+  color: #fff;
+  border: 1px solid ${({ theme }) => theme.text_primary + 20};
   border-radius: 12px;
   padding: 12px 16px;
   display: flex;
