@@ -2,8 +2,9 @@
 import pixels from "../images/pixels.png";
 import css from "../images/css.png";
 import bird from "../images/bird.png";
-import mobile from "../images/mobile.png";
+import resume from '../images/resume.png'
 import youtube from "../images/youtube.png";
+import jessica from "../images/jessica.png"
 
 
 export const Bio = {
@@ -249,8 +250,26 @@ export const experiences = [
 export const projects = [
  {
     id: 9,
-    title: "Youtube",
+    title: "Resume-Builder",
     date: "Oct 2025",
+    description:
+      "The Resume Builder Application is a demo version of a modern web tool designed to help users easily create professional and visually appealing resumes. This project allows users to enter personal details, education, experience, and skills — and instantly generate a clean, formatted resume ready for download or sharing.Built with ReactJS and Tailwind CSS, the frontend delivers a fast, responsive, and user-friendly experience. Key functionalities such as real-time form updates, live resume preview, and customizable templates ensure flexibility and ease of use.Modern UI components from Shadcn/UI and Lucide Icons give the application a sleek, minimalistic, and professional design across all devices. Every feature — from template customization to PDF export — is optimized for smooth performance and user convenience.                         Note: This is a demo version created for portfolio display. The original project (with both frontend and backend) is a complete MERN stack application developed and maintained by me.",
+    image:resume,
+    tags: [
+    "ReactJS",
+    "Tailwind CSS",
+    "React Router",
+    "Shadcn/UI",
+    "Lucide Icons",
+    "MongoDB",
+  ],
+    category: "web app",
+    webapp: "https://resume-builder-l8y7.vercel.app/",
+  },
+ {
+    id: 9,
+    title: "Youtube",
+    date: "Oct 2024",
     description:
       "The YouTube Clone Application is designed to provide users with a seamless video streaming experience similar to the original YouTube platform. Whether it’s watching trending videos, exploring different categories, or engaging through likes and comments, this app ensures smooth performance and real-time interaction. Users can easily browse content, view detailed video information, and stay updated with the latest uploads — all within a clean and responsive interface.Built with ReactJS and Tailwind CSS, the frontend delivers a fast, dynamic, and user-friendly experience. Features like category-based video filtering, real-time search, and view count formatting (K/M) enhance usability and make navigation effortless. The application integrates YouTube Data API v3 to fetch live data such as video details, channels, likes, comments, and statistics, ensuring an authentic and data-driven experience.With modern UI components powered by Shadcn/UI and Lucide Icons, the design feels sleek, consistent, and professional across all devices. From video playback and recommendations to channel info and comments, every feature works smoothly to replicate the real YouTube environment.Whether you’re discovering new content or revisiting your favorite creators, the YouTube Clone Application bridges design, performance, and functionality — delivering an engaging, modern, and realistic video streaming experience.",
     image:youtube,
@@ -294,6 +313,17 @@ export const projects = [
     tags: ["ReactJs", "Tailwind CSS", "Javascript", "HTML", "CSS", "PrebuildUi","Responsive Design"],
     category: "web app",
     webapp: "https://hashir-mehran.github.io/Pixels/",
+  },
+  {
+    id: 4,
+    title: "Jessica-Portfolio",
+    date: "jun 2024",
+    description:
+      "Welcome to Jessica, a creative and visually captivating web + portfolio application built with modern technologies where design meets functionality. Jessica is more than just a portfolio — it’s a personal digital identity that highlights creativity, professionalism, and performance.With its responsive layout, elegant UI, and smooth navigation, Jessica ensures a seamless browsing experience across all devices. Every section — from the About and Skills pages to the Project Showcase and Contact Form — is crafted with precision to reflect both aesthetic appeal and usability.Built using HTML, CSS, and JavaScript, Jessica demonstrates the perfect blend of visual design and technical expertise. Interactive animations, dynamic galleries, and an intuitive interface make it stand out as a true example of modern web design.Whether visitors are exploring showcased projects, reading portfolio details, or connecting through the contact form, Jessica delivers a polished, engaging, and memorable user experience — redefining how personal portfolios come to life on the web.",
+    image:jessica,
+    tags: ["HTML", " CSS", "Javascript","Responsive Design"],
+    category: "web app",
+    webapp: "https://jessica112.netlify.app/",
   },
   {
     id: 5,
