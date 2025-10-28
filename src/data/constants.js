@@ -285,34 +285,35 @@ export const projects = [
     category: "web app",
     webapp: "https://youtube-clone1000.netlify.app/",
   },
-  //  {
-  //   id: 9,
-  //   title: "LabourPk",
-  //   date: "Jun 2025",
-  //   description:
-  //     "The Labour Service Application is designed to connect customers with skilled workers in the most seamless way possible. Whether it’s plumbing, electrical work, carpentry, cleaning, or any other household or professional service, this platform ensures quick access to verified labourers with transparent pricing and availability. The app’s intuitive design makes it simple for users to search services, view worker profiles, and book with just a few clicks.Built with ReactJS and Tailwind CSS, the frontend provides a fast, responsive, and user-friendly interface. Features like real-time search, category-based filtering, and detailed worker profiles give customers the confidence to make informed decisions. Workers can showcase their expertise, availability, and service charges, making the platform beneficial for both sides.From booking to payment and dashboard management, the app ensures smooth navigation and interaction across all devices. With modern UI components powered by Shadcn/UI and Lucide Icons, the experience feels modern, reliable, and professional. Whether you are a customer looking for help at home or a worker showcasing your skills, the Labour Service Application creates a bridge of trust, efficiency, and convenience.",
-  //   image:labour,
-  //   tags: [
-  //   "ReactJS",
-  //   "Tailwind CSS",
-  //   "React Router",
-  //   "Shadcn/UI",
-  //   "Lucide Icons",
-  //   "Supabase",
-  //   ],
-  //   category: "web app",
-  //   webapp: "https://moustachescapes.com/",
-  // },
   {
     id: 4,
     title: "Pixels",
     date: "Jun 2023",
     description:
-      "Welcome to Pixels, a creative and visually stunning web project built with modern technologies, where design meets performance. Pixels is more than just a website — it’s a refined digital experience crafted to impress. With its responsive layout, clean interface, and fast loading speed, it ensures seamless browsing across all devices. Every element is designed to blend elegance, usability, and innovation, making Pixels a perfect example of modern web craftsmanship. From interactive galleries to smooth animations, Pixels showcases the power of HTML, CSS, and JavaScript in creating engaging user experiences. Whether you’re exploring portfolios, reading articles, or simply enjoying the aesthetics, Pixels delivers a polished and immersive journey through the digital world.",
+    "Welcome to Pixels, a creative and visually stunning web project built with modern technologies, where design meets performance. Pixels is more than just a website — it’s a refined digital experience crafted to impress. With its responsive layout, clean interface, and fast loading speed, it ensures seamless browsing across all devices. Every element is designed to blend elegance, usability, and innovation, making Pixels a perfect example of modern web craftsmanship. From interactive galleries to smooth animations, Pixels showcases the power of HTML, CSS, and JavaScript in creating engaging user experiences. Whether you’re exploring portfolios, reading articles, or simply enjoying the aesthetics, Pixels delivers a polished and immersive journey through the digital world.",
     image:pixels,
     tags: ["ReactJs", "Tailwind CSS", "Javascript", "HTML", "CSS", "PrebuildUi","Responsive Design"],
     category: "web app",
     webapp: "https://hashir-mehran.github.io/Pixels/",
+    
+    //  {
+    //   id: 9,
+    //   title: "LabourPk",
+    //   date: "Jun 2025",
+    //   description:
+    //     "The Labour Service Application is designed to connect customers with skilled workers in the most seamless way possible. Whether it’s plumbing, electrical work, carpentry, cleaning, or any other household or professional service, this platform ensures quick access to verified labourers with transparent pricing and availability. The app’s intuitive design makes it simple for users to search services, view worker profiles, and book with just a few clicks.Built with ReactJS and Tailwind CSS, the frontend provides a fast, responsive, and user-friendly interface. Features like real-time search, category-based filtering, and detailed worker profiles give customers the confidence to make informed decisions. Workers can showcase their expertise, availability, and service charges, making the platform beneficial for both sides.From booking to payment and dashboard management, the app ensures smooth navigation and interaction across all devices. With modern UI components powered by Shadcn/UI and Lucide Icons, the experience feels modern, reliable, and professional. Whether you are a customer looking for help at home or a worker showcasing your skills, the Labour Service Application creates a bridge of trust, efficiency, and convenience.",
+    //   image:labour,
+    //   tags: [
+    //   "ReactJS",
+    //   "Tailwind CSS",
+    //   "React Router",
+    //   "Shadcn/UI",
+    //   "Lucide Icons",
+    //   "Supabase",
+    //   ],
+    //   category: "web app",
+    //   webapp: "https://moustachescapes.com/",
+    // },
   },
   {
     id: 4,
