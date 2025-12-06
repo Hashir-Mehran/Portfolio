@@ -1,10 +1,11 @@
 // import labour from "../images/labour.png";
-import pixels from "../images/pixels.png";
+// import pixels from "../images/pixels.png";
 import css from "../images/css.png";
-import bird from "../images/bird.png";
+// import doctor from '../images/doctor.png'
 import resume from '../images/resume.png'
 import youtube from "../images/youtube.png";
-import jessica from "../images/jessica.png"
+import shopmate from "../images/shop-mate.png";
+// import jessica from "../images/jessica.png"
 
 
 export const Bio = {
@@ -15,10 +16,10 @@ export const Bio = {
   ],
  description: "I am a Full Stack Developer from Pakistan with 2+ years of experience, I've delivered over 45 custom software and web solutions for 20+ global clients. I specialize in E-commerce, Web Apps, Business Applications, Real Estate Websites and team Work Managment Web App using Next.js, React.js,Node.js , Laravell, PHP, Python, Django and Flutter to ensure clean code and fast project delivery.",
 
-  github: "https://github.com/KingEagle1002",
+  github: "https://github.com/Hashir-Mehran",
   resume: 
     process.env.PUBLIC_URL + "/resume.pdf",
-  linkedin: "www.linkedin.com/in/hashir-mehran",
+  linkedin: "https://www.linkedin.com/in/hashir-mehran",
   insta: "https://www.instagram.com/mehranhashir?igsh=eTBmcGh5bGptYXJk",
   facebook: "https://www.facebook.com/profile.php?id=100085188819255",
 };
@@ -141,7 +142,7 @@ export const skills = [
       {
         name: "Netlify",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "data:image/png;base64,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",
       },
       {
         name: "VS Code",
@@ -250,6 +251,27 @@ export const experiences = [
 export const projects = [
  {
     id: 9,
+    title: "Shop Mate",
+    date: "Oct 2025",
+    description:
+      "ShopMate is a modern eCommerce web application designed to provide users with a seamless and enjoyable online shopping experience. Users can browse products, add items to their cart, manage orders, and complete secure checkout processes — all within a clean, intuitive interface.Built with ReactJS and Tailwind CSS, the frontend delivers a fast, responsive, and user-friendly experience. Key functionalities such as live product filtering, dynamic cart updates, and real-time order previews ensure flexibility and ease of use.Modern UI components from Shadcn/UI and Lucide Icons give the application a sleek, minimalistic, and professional design across all devices. Every feature — from product listing to checkout and order tracking — is optimized for smooth performance and user convenience.Note: This is a demo version created for portfolio display. The original project (with both frontend and backend, including an admin dashboard) is a complete full-stack application developed and maintained by me.",
+    image:shopmate,
+    tags: [
+    "Mern Stack",
+    "Tailwind CSS",
+    "Shadcn/UI",
+    "Gemini",
+    "Dashobard",
+    "Stripe",
+    "Cloudinary",
+    "Lucide Icons", 
+    "PostGres",
+  ],
+    category: "mern app",
+    webapp: "https://shop-matepk.netlify.app/",
+  },
+ {
+    id: 9,
     title: "Resume-Builder",
     date: "Oct 2025",
     description:
@@ -266,6 +288,24 @@ export const projects = [
     category: "react app",
     webapp: "https://resume-builder-l8y7.vercel.app/",
   },
+//  {
+//     id: 9,
+//     title: "Doctor-Appointment-Booking-System",
+//     date: "March 2025",
+//     description:
+//       "The Doctor Appointment Booking System is a demo version of a modern healthcare web application designed to simplify the process of booking, managing, and tracking doctor appointments online. This project allows patients to register, search for doctors by specialty, view availability, and schedule appointments with ease.Built with ReactJS and Tailwind CSS, the frontend ensures a fast, responsive, and intuitive user experience. Real-time form updates, dynamic appointment scheduling, and seamless navigation make the platform efficient and user-friendly.Modern UI components from Shadcn/UI and Lucide Icons enhance the overall look with a clean, minimal, and professional design across all devices. Every feature — from doctor profile management to appointment status tracking — is optimized for smooth performance and accessibility.Note: This is a demo version created for portfolio display.The original project (with both frontend and backend) is a complete MERN stack application designed and developed by me, featuring user authentication, admin control, and secure data handling.",
+//     image:doctor,
+//     tags: [
+//     "ReactJS",
+//     "Tailwind CSS",
+//     "React Router",
+//     "Shadcn/UI",
+//     "Lucide Icons",
+//     "MongoDB",
+//   ],
+//     category: "react app",
+//     webapp: "https://hashir-mehran.github.io/",
+//   },
  {
     id: 9,
     title: "Youtube",
@@ -285,16 +325,16 @@ export const projects = [
     category: "react app",
     webapp: "https://youtube-clone1000.netlify.app/",
   },
-  {
-    id: 4,
-    title: "Pixels",
-    date: "Jun 2023",
-    description:
-    "Welcome to Pixels, a creative and visually stunning web project built with modern technologies, where design meets performance. Pixels is more than just a website — it’s a refined digital experience crafted to impress. With its responsive layout, clean interface, and fast loading speed, it ensures seamless browsing across all devices. Every element is designed to blend elegance, usability, and innovation, making Pixels a perfect example of modern web craftsmanship. From interactive galleries to smooth animations, Pixels showcases the power of HTML, CSS, and JavaScript in creating engaging user experiences. Whether you’re exploring portfolios, reading articles, or simply enjoying the aesthetics, Pixels delivers a polished and immersive journey through the digital world.",
-    image:pixels,
-    tags: ["ReactJs", "Tailwind CSS", "Javascript", "HTML", "CSS", "PrebuildUi","Responsive Design"],
-    category: "react app",
-    webapp: "https://hashir-mehran.github.io/Pixels/",
+  // {
+  //   id: 4,
+  //   title: "Pixels",
+  //   date: "Jun 2023",
+  //   description:
+  //   "Welcome to Pixels, a creative and visually stunning web project built with modern technologies, where design meets performance. Pixels is more than just a website — it’s a refined digital experience crafted to impress. With its responsive layout, clean interface, and fast loading speed, it ensures seamless browsing across all devices. Every element is designed to blend elegance, usability, and innovation, making Pixels a perfect example of modern web craftsmanship. From interactive galleries to smooth animations, Pixels showcases the power of HTML, CSS, and JavaScript in creating engaging user experiences. Whether you’re exploring portfolios, reading articles, or simply enjoying the aesthetics, Pixels delivers a polished and immersive journey through the digital world.",
+  //   image:pixels,
+  //   tags: ["ReactJs", "Tailwind CSS", "Javascript", "HTML", "CSS", "PrebuildUi","Responsive Design"],
+  //   category: "react app",
+  //   webapp: "https://hashir-mehran.github.io/Pixels/",
 
     //  {
     //   id: 9,
@@ -314,18 +354,18 @@ export const projects = [
     //   category: "web app",
     //   webapp: "https://moustachescapes.com/",
     // },
-  },
-  {
-    id: 4,
-    title: "Jessica-Portfolio",
-    date: "jun 2024",
-    description:
-      "Welcome to Jessica, a creative and visually captivating web + portfolio application built with modern technologies where design meets functionality. Jessica is more than just a portfolio — it’s a personal digital identity that highlights creativity, professionalism, and performance.With its responsive layout, elegant UI, and smooth navigation, Jessica ensures a seamless browsing experience across all devices. Every section — from the About and Skills pages to the Project Showcase and Contact Form — is crafted with precision to reflect both aesthetic appeal and usability.Built using HTML, CSS, and JavaScript, Jessica demonstrates the perfect blend of visual design and technical expertise. Interactive animations, dynamic galleries, and an intuitive interface make it stand out as a true example of modern web design.Whether visitors are exploring showcased projects, reading portfolio details, or connecting through the contact form, Jessica delivers a polished, engaging, and memorable user experience — redefining how personal portfolios come to life on the web.",
-    image:jessica,
-    tags: ["HTML", " CSS", "Javascript","Responsive Design"],
-    category: "frontend app",
-    webapp: "https://jessica112.netlify.app/",
-  },
+  // },
+  // {
+  //   id: 4,
+  //   title: "Jessica-Portfolio",
+  //   date: "jun 2024",
+  //   description:
+  //     "Welcome to Jessica, a creative and visually captivating web + portfolio application built with modern technologies where design meets functionality. Jessica is more than just a portfolio — it’s a personal digital identity that highlights creativity, professionalism, and performance.With its responsive layout, elegant UI, and smooth navigation, Jessica ensures a seamless browsing experience across all devices. Every section — from the About and Skills pages to the Project Showcase and Contact Form — is crafted with precision to reflect both aesthetic appeal and usability.Built using HTML, CSS, and JavaScript, Jessica demonstrates the perfect blend of visual design and technical expertise. Interactive animations, dynamic galleries, and an intuitive interface make it stand out as a true example of modern web design.Whether visitors are exploring showcased projects, reading portfolio details, or connecting through the contact form, Jessica delivers a polished, engaging, and memorable user experience — redefining how personal portfolios come to life on the web.",
+  //   image:jessica,
+  //   tags: ["HTML", " CSS", "Javascript","Responsive Design"],
+  //   category: "frontend app",
+  //   webapp: "https://jessica112.netlify.app/",
+  // },
   {
     id: 5,
     title: "Coffee Shop",

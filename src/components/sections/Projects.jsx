@@ -123,6 +123,14 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton> 
           <Divider /> 
           <ToggleButton
+            active={toggle === "mern app"}
+            onClick={() => setToggle("mern app")}
+          >
+            Mern Stack
+          </ToggleButton> 
+          <Divider />
+          <Divider /> 
+          <ToggleButton
             active={toggle === "react app"}
             onClick={() => setToggle("react app")}
           >
