@@ -409,11 +409,11 @@ export const education = [
     id: 0,
   img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK0JLCO1UwVZf6-xwVZLC5-FzUgEEZVM8whA&s",
   school: "Govt.Ambala University",
-  date: "Aug 2023 - Present",
-  // grade: "A+",
-  desc: "Currently pursuing Intermediate in Computer Science (ICS). Subjects include Computer Science, Mathematics, and Physics. Actively learning programming fundamentals and working on improving technical and logical skills.",
-  degree: "Intermediate in Computer Science (ICS)"
-
+  date: "Aug 2022 - Sep 2024",
+  grade: "B+",
+  desc: "Currently pursuing a Bachelor's degree in Computer Science. Learning advanced programming, data structures, databases, and web development. Focused on building real-world projects and enhancing technical problem-solving skills.",
+  degree: "Bachelor of Science in Computer Science (BSC)",
+  
   }];
   
 
