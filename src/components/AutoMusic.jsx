@@ -6,12 +6,11 @@ const AutoMusic = () => {
   const [started, setStarted] = useState(false);
 
   useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+
     const handleStart = async () => {
       if (started) return;
-
-      const audio = audioRef.current;
-      if (!audio) return;
-
       setStarted(true);
 
       // Slow down playback
@@ -20,21 +19,39 @@ const AutoMusic = () => {
       audio.volume = 0.10;
 
       try {
-        // Simple play
         await audio.play();
         console.log("🎵 Music started");
       } catch (err) {
         console.log("❌ Music blocked, try another click", err);
       }
 
-      // Remove listener after first click
       window.removeEventListener("click", handleStart);
     };
 
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        audio.pause(); // pause when tab is hidden or mobile back
+      } else if (started) {
+        audio.play().catch(() => {}); // resume if tab comes back
+      }
+    };
+
+    // Add click listener for first interaction
     window.addEventListener("click", handleStart);
+
+    // Pause when page hidden / mobile back
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    // Optional: pause on browser unload / navigate away
+    const handleUnload = () => {
+      audio.pause();
+    };
+    window.addEventListener("beforeunload", handleUnload);
 
     return () => {
       window.removeEventListener("click", handleStart);
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+      window.removeEventListener("beforeunload", handleUnload);
     };
   }, [started]);
 
