@@ -81,7 +81,9 @@ const Description = styled.div`
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
+  white-space: normal;
 `;
+
 const Members = styled.div`
   display: flex;
   align-items: center;
@@ -115,7 +117,8 @@ const ProjectCard = ({ project, setOpenModal }) => {
       <Details>
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
-        <Description>{project.description}</Description>
+        <Description>{project.description.replace(/\n/g, " ")}</Description>
+
       </Details>
       <Members>
         {project.member?.map((member) => (

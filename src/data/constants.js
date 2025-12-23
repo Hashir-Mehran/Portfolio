@@ -5,6 +5,8 @@ import css from "../images/css.png";
 import resume from '../images/resume.png'
 import youtube from "../images/youtube.png";
 import shopmate from "../images/shop-mate.png";
+import anon from "../images/anon.png";
+import casmart from "../images/casmart.png";
 // import jessica from "../images/jessica.png"
 
 
@@ -249,27 +251,36 @@ export const experiences = [
 
 
 export const projects = [
- {
-    id: 9,
-    title: "Shop Mate",
-    date: "Oct 2025",
-    description:
-      "ShopMate is a modern eCommerce web application designed to provide users with a seamless and enjoyable online shopping experience. Users can browse products, add items to their cart, manage orders, and complete secure checkout processes — all within a clean, intuitive interface.Built with ReactJS and Tailwind CSS, the frontend delivers a fast, responsive, and user-friendly experience. Key functionalities such as live product filtering, dynamic cart updates, and real-time order previews ensure flexibility and ease of use.Modern UI components from Shadcn/UI and Lucide Icons give the application a sleek, minimalistic, and professional design across all devices. Every feature — from product listing to checkout and order tracking — is optimized for smooth performance and user convenience.Note: This is a demo version created for portfolio display. The original project (with both frontend and backend, including an admin dashboard) is a complete full-stack application developed and maintained by me.",
-    image:shopmate,
-    tags: [
+{
+  id: 9,
+  title: "Shop Mate",
+  date: "Oct 2025",
+  description: `
+ShopMate is a modern eCommerce web application designed to provide users with a seamless and enjoyable online shopping experience.
+
+Users can browse products, add items to their cart, manage orders, and complete secure checkout processes — all within a clean, intuitive interface.
+
+Built with ReactJS and Tailwind CSS, the frontend delivers a fast, responsive, and user-friendly experience. Key functionalities such as live product filtering, dynamic cart updates, and real-time order previews ensure flexibility and ease of use.
+
+Modern UI components from Shadcn/UI and Lucide Icons give the application a sleek, minimalistic, and professional design across all devices.
+
+Note: This is a demo version created for portfolio display. The original project (with both frontend and backend, including an admin dashboard) is a complete full-stack application developed and maintained by me.
+`,
+  image: shopmate,
+  tags: [
     "Mern Stack",
     "Tailwind CSS",
     "Shadcn/UI",
     "Gemini",
-    "Dashobard",
+    "Dashboard",
     "Stripe",
     "Cloudinary",
     "Lucide Icons", 
     "PostGres",
   ],
-    category: "mern app",
-    webapp: "https://shop-matepk.netlify.app/",
-  },
+  category: "mern app",
+  webapp: "https://shop-matepk.netlify.app/",
+},
  {
     id: 9,
     title: "Resume-Builder",
@@ -366,6 +377,28 @@ export const projects = [
   //   category: "frontend app",
   //   webapp: "https://jessica112.netlify.app/",
   // },
+  {
+    id: 5,
+    title: "Anon eCommerce ",
+    date: "jan 2023",
+    description:
+    "A complete, fully-functional e-commerce website built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This project includes a customer-facing online store and a secure admin dashboard for managing products, orders, and users. Integrated with Stripe for seamless and secure payment processing, the platform offers a modern, responsive, and user-friendly shopping experience.",
+    image:anon,
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap,","Responsive Design","MongoDB", "Express.js", "React.js", "Node.js","Stripe"],
+    category: "react app",
+    webapp: "https://anon-ecommerce-pk.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Casmart eCommerce ",
+    date: "oct 2024",
+    description:
+    " Casmart is a comprehensive digital shopping center platform that brings multiple brands, vendors, and stores into one unified online marketplace. Designed to replicate the experience of a physical shopping mall, it offers users a seamless way to explore, compare, and purchase products from various sellers in one secure ecosystem.",
+    image:casmart,
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    category: "frontend app",
+    webapp: "https://casmart-ecommerce-pk.netlify.app/",
+  },
   {
     id: 5,
     title: "Coffee Shop",

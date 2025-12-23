@@ -11,6 +11,7 @@ import Experience from "./components/sections/Experience";
 import Projects from "./components/sections/Projects";
 import Footer from "./components/sections/Footer";
 import ProjectDetails from "./components/Dialog/ProjectDetails";
+import AutoMusic from "./components/AutoMusic"; 
 import { useState } from "react";
 
 const Body = styled.div`
@@ -41,6 +42,9 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <BrowserRouter>
+        {/* 🎵 Background music */}
+        <AutoMusic />
+
         <Navbar />
         <Body>
           <StarCanvas />
