@@ -4,21 +4,17 @@ import styled, { useTheme } from "styled-components";
 import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
 
+/* ========== STYLES ========== */
+
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.bg};
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
   position: sticky;
   top: 0;
   z-index: 10;
-  color: white;
-`;
-const ColorText = styled.div`
-  color: ${({ theme }) => theme.primary};
-  font-size: 32px;
 `;
 
 const NavbarContainer = styled.div`
@@ -28,26 +24,26 @@ const NavbarContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 1rem;
 `;
+
+const ColorText = styled.span`
+  color: ${({ theme }) => theme.primary};
+  font-size: 32px;
+`;
+
 const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center;
-  width: 80%;
-  padding: 0 6px;
   font-weight: 500;
   font-size: 18px;
   text-decoration: none;
-  color: inherit;
+  color: ${({ theme }) => theme.text_primary};
 `;
 
 const NavItems = styled.ul`
-  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 32px;
-  padding: 0 6px;
   list-style: none;
 
   @media screen and (max-width: 768px) {
@@ -59,20 +55,17 @@ const NavLink = styled.a`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   text-decoration: none;
+
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
 `;
 
 const ButtonContainer = styled.div`
-  width: 80%;
-  height: 100%;
   display: flex;
-  justify-content: end;
-  align-items: center;
-  padding: 0 6px;
+  gap: 12px;
+
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -81,16 +74,17 @@ const ButtonContainer = styled.div`
 const GithubButton = styled.a`
   border: 1px solid ${({ theme }) => theme.primary};
   color: ${({ theme }) => theme.primary};
-  justify-content: center;
   display: flex;
   align-items: center;
+  justify-content: center;
   border-radius: 20px;
-  cursor: pointer;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 10px 18px;
+  font-size: 15px;
   font-weight: 500;
-  transition: all 0.6s ease-in-out;
+  cursor: pointer;
   text-decoration: none;
+  width: 100%;
+
   &:hover {
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.text_primary};
@@ -98,56 +92,94 @@ const GithubButton = styled.a`
 `;
 
 const MobileIcon = styled.div`
-  height: 100%;
-  display: flex;
-  align-items: center;
-  color: ${({ theme }) => theme.text_primary};
   display: none;
+  color: ${({ theme }) => theme.text_primary};
+  cursor: pointer;
+
   @media screen and (max-width: 768px) {
     display: block;
   }
 `;
 
 const MobileMenu = styled.ul`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 16px;
-  padding: 0 6px;
   list-style: none;
-  width: 100%;
-  padding: 12px 40px 24px 40px;
-  background: ${({ theme }) => theme.card_light + 99};
   position: absolute;
   top: 80px;
   right: 0;
+  width: 100%;
+  padding: 24px 40px;
+  background: ${({ theme }) => theme.card_light + "ee"};
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
-  transition: all 0.6s ease-in-out;
   transform: ${({ isOpen }) =>
     isOpen ? "translateY(0)" : "translateY(-100%)"};
-  border-radius: 0 0 20px 20px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
-  z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
+  opacity: ${({ isOpen }) => (isOpen ? 1 : 0)};
+  transition: all 0.4s ease;
+  z-index: ${({ isOpen }) => (isOpen ? 1000 : -1)};
 `;
+
+/* 🔥 MOBILE LINK STYLE */
+const MobileNavLink = styled(NavLink)`
+  font-size: 18px;
+  padding: 10px 0;
+`;
+
+const LeftLink = styled(MobileNavLink)`
+  text-align: left;
+`;
+
+const RightLink = styled(MobileNavLink)`
+  text-align: right;
+`;
+
+/* 🔥 Mobile links grid */
+const MobileLinkGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+`;
+
+/* 🔥 Education center */
+const CenterLink = styled(MobileNavLink)`
+  width: 100%;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+`;
+
+/* 🔥 Mobile buttons grid */
+const MobileButtonRow = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+`;
+
+/* ========== COMPONENT ========== */
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const theme = useTheme();
+
   return (
     <Nav>
       <NavbarContainer>
+        {/* LOGO */}
         <NavLogo to="/">
-          <ColorText>&lt;</ColorText>Hashir
-          <div style={{ color: theme.primary }}>/</div>Mehran
+          <ColorText>&lt;</ColorText>
+          Hashir
+          <span style={{ color: theme.primary }}>/</span>
+          Mehran
           <ColorText>&gt;</ColorText>
         </NavLogo>
 
+        {/* MOBILE ICON */}
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
-          <MenuRounded style={{ color: "inherit" }} />
+          <MenuRounded />
         </MobileIcon>
 
+        {/* DESKTOP LINKS */}
         <NavItems>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
@@ -156,59 +188,72 @@ const Navbar = () => {
           <NavLink href="#Education">Education</NavLink>
         </NavItems>
 
+        {/* DESKTOP BUTTONS */}
+        <ButtonContainer>
+          <GithubButton href={Bio.github} target="_blank">
+            Github
+          </GithubButton>
+          <GithubButton
+            href={process.env.PUBLIC_URL + "/Hashir Bussiness Resume.pdf"}
+            target="_blank"
+          >
+            Resume
+          </GithubButton>
+        </ButtonContainer>
+
+        {/* MOBILE MENU */}
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">
-              About
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Skills">
-              Skills
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experience">
-              Experience
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
-              Projects
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
+            {/* LINKS GRID */}
+            <MobileLinkGrid>
+              <LeftLink onClick={() => setIsOpen(false)} href="#About">
+                About
+              </LeftLink>
+
+              <RightLink onClick={() => setIsOpen(false)} href="#Skills">
+                Skills
+              </RightLink>
+
+              <LeftLink onClick={() => setIsOpen(false)} href="#Experience">
+                Experience
+              </LeftLink>
+
+              <RightLink onClick={() => setIsOpen(false)} href="#Projects">
+                Projects
+              </RightLink>
+            </MobileLinkGrid>
+
+            {/* EDUCATION CENTER */}
+            <CenterLink onClick={() => setIsOpen(false)} href="#Education">
               Education
-            </NavLink>
-           <GithubButton
-              href={Bio.github}
-              target="_Blank"
-              style={{
-                background: theme.primary,
-                color: theme.text_primary,
-              }}
-            >
-              Github Profile
-            </GithubButton>
+            </CenterLink>
 
-            <GithubButton
-              href={process.env.PUBLIC_URL + "/Hashir Bussiness Resume.pdf"}
-              target="_Blank"
-              style={{
-                background: theme.primary,
-                color: theme.text_primary,
-              }}
-            >
-              Resume
-            </GithubButton>
-            </MobileMenu>
-            )}
-
-            <ButtonContainer>
-              <GithubButton href={Bio.github} target="_Blank">
-                Github 
+            {/* BUTTON GRID */}
+            <MobileButtonRow>
+              <GithubButton
+                href={Bio.github}
+                target="_blank"
+                style={{
+                  background: theme.primary,
+                  color: theme.text_primary,
+                }}
+              >
+                Github
               </GithubButton>
-            </ButtonContainer>
 
-            <ButtonContainer>
-              <GithubButton href={process.env.PUBLIC_URL + "/Hashir Bussiness Resume.pdf"} target="_Blank">
+              <GithubButton
+                href={process.env.PUBLIC_URL + "/Hashir Bussiness Resume.pdf"}
+                target="_blank"
+                style={{
+                  background: theme.primary,
+                  color: theme.text_primary,
+                }}
+              >
                 Resume
               </GithubButton>
-            </ButtonContainer>
-
+            </MobileButtonRow>
+          </MobileMenu>
+        )}
       </NavbarContainer>
     </Nav>
   );

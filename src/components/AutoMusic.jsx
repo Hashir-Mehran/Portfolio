@@ -42,7 +42,7 @@ const AutoMusic = () => {
     // Pause when page hidden / mobile back
     document.addEventListener("visibilitychange", handleVisibilityChange);
 
-    // Optional: pause on browser unload / navigate away
+    
     const handleUnload = () => {
       audio.pause();
     };
