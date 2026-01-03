@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.7edda102.css",
-    "main.js": "/Portfolio/static/js/main.d4c262bd.js",
+    "main.js": "/Portfolio/static/js/main.0d88a282.js",
     "static/media/music.mp3": "/Portfolio/static/media/music.3fdc824b72cd8d6f09c9.mp3",
     "static/media/shop-mate.png": "/Portfolio/static/media/shop-mate.a86c9141587d5154b30c.png",
     "static/media/youtube.png": "/Portfolio/static/media/youtube.c86188d190011cd05b7b.png",
@@ -10,10 +10,11 @@
     "static/media/anon.png": "/Portfolio/static/media/anon.cce81bfc192a6c43692e.png",
     "static/media/casmart.png": "/Portfolio/static/media/casmart.db9e61518c8f74c643ae.png",
     "static/media/hashir-coat.jpg": "/Portfolio/static/media/hashir-coat.b51c962a1b195d879d76.jpg",
+    "static/media/SnapCart.jpeg": "/Portfolio/static/media/SnapCart.1dfcdf155190fa6046b2.jpeg",
     "index.html": "/Portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.7edda102.css",
-    "static/js/main.d4c262bd.js"
+    "static/js/main.0d88a282.js"
   ]
 }
