@@ -121,27 +121,20 @@ const Projects = ({ openModal, setOpenModal }) => {
           > */}
             
           </ToggleButton> 
+          
           <Divider /> 
           <ToggleButton
-            active={toggle === "mern app"}
-            onClick={() => setToggle("mern app")}
+            active={toggle === "app"}
+            onClick={() => setToggle("app")}
           >
-            Mern Stack
+            React Native-app
           </ToggleButton> 
           <Divider />
-          <Divider /> 
           <ToggleButton
-            active={toggle === "react app"}
-            onClick={() => setToggle("react app")}
+            active={toggle === "website"}
+            onClick={() => setToggle("website")}
           >
-            React App
-          </ToggleButton> 
-          <Divider />
-           <ToggleButton
-            active={toggle === "frontend app"}
-            onClick={() => setToggle("frontend app")}
-          >
-            UI/UX Design App
+            WebSite
           </ToggleButton> 
         </ToggleButtonGroup>
         <CardContainer>

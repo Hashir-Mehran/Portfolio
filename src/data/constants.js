@@ -7,6 +7,8 @@ import youtube from "../images/youtube.png";
 import shopmate from "../images/shop-mate.png";
 import anon from "../images/anon.png";
 import casmart from "../images/casmart.png";
+import SnapCart from "../images/SnapCart.jpeg";
+import SnapPromptImg from "../images/SnapPromptImg.png";
 // import jessica from "../images/jessica.png"
 
 
@@ -258,6 +260,67 @@ export const experiences = [
 export const projects = [
 {
   id: 9,
+  title: "SnapPrompt",
+  date: "January 2026",
+  description: `
+SnapPromp ek advanced mobile application hai jo visual art aur AI prompt generation ke darmiyan ka gap khatam karti hai. Is project ka main maqsad users ko ye facility dena hai ke wo kisi bhi image se uske complex descriptive prompts extract kar sakein. Maine is app ko React Native (Expo) aur TypeScript ka use karte hue develop kiya hai, jisme ek sleek "Dark & Gold" premium UI design implement kiya gaya hai. App mein robust features shamil hain jaise real-time AI image analysis animation (using SVG), terminal-style typewriter effects, aur seamless clipboard integration. User experience ko smooth rakhte hue, maine isme AdMob (Interstitial, Rewarded, aur Banner ads) ko intelligently integrate kiya hai taaki functionality aur monetization ka balance bana rahe. Ye project meri mobile app development, UI/UX design, aur third-party API integration ki skills ka aik perfect combination hai.
+`,
+  image: SnapPromptImg, // Isay apne image variable se change kar lena
+  tags: [
+    "React Native",
+    "Expo",
+    "TypeScript",
+    "AI Prompt Engineering",
+    "Google AdMob",
+    "SVG Animations",
+    "Image Processing",
+    "Dark UI Design",
+    "Vector Icons",
+    "Lottie Animations",
+    "Mobile Development",
+    "UI/UX Design"
+  ],
+  category: "mobile app", // Website ki jagah mobile app professional lagega
+  webapp: "https://your-app-link.com", // Agar Play Store ya demo link hai to wo dalo
+},
+{
+  id: 9,
+  title: "🛒 SnapCart – Smart Grocery Delivery App",
+  date: "Des 2025",
+  description: `
+SnapCart is a modern, fully animated grocery delivery web application built on Next.js, designed to deliver a fast, secure, and real-time shopping experience.
+
+The application features smooth motion-based animations across the entire UI, creating a premium and engaging user experience on all devices.
+
+SnapCart includes a complete multi-role dashboard system with three panels: Admin, User, and Delivery Boy. The Admin dashboard manages products, orders, users, and delivery staff. Users can browse groceries, place orders, choose payment methods, track live delivery, and chat with delivery boys. Delivery boys can accept and complete orders only after OTP verification, ensuring secure deliveries.
+
+The platform supports Stripe for secure online payments along with a Cash on Delivery (COD) option. Real-time features such as live order updates, delivery tracking, and instant notifications are powered by Socket.IO.
+
+Leaflet maps are integrated for live location tracking and auto-detecting delivery addresses. An AI-powered chat system enables smooth communication between users and delivery boys.
+
+Note: This is a production-ready full-stack application developed and deployed by me.
+`,
+  image: SnapCart,
+  tags: [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Motion Animations",
+    "Socket.IO",
+    "Stripe",
+    "Cash on Delivery",
+    "OTP Verification",
+    "AI Chat",
+    "Leaflet Maps",
+    "MongoDB",
+    "Role-Based Dashboards"
+  ],
+  category: "website",
+  webapp: "https://snap-cart-lilac.vercel.app/",
+},
+
+{
+  id: 9,
   title: "Shop Mate",
   date: "Oct 2025",
   description: `
@@ -283,7 +346,7 @@ Note: This is a demo version created for portfolio display. The original project
     "Lucide Icons", 
     "PostGres",
   ],
-  category: "mern app",
+  category: "website",
   webapp: "https://shop-matepk.netlify.app/",
 },
  {
@@ -301,7 +364,7 @@ Note: This is a demo version created for portfolio display. The original project
     "Lucide Icons",
     "MongoDB",
   ],
-    category: "react app",
+    category: "website",
     webapp: "https://resume-builder-l8y7.vercel.app/",
   },
 //  {
@@ -338,7 +401,7 @@ Note: This is a demo version created for portfolio display. The original project
     "Supabase",
     "YouTube Data API v3"
   ],
-    category: "react app",
+    category: "website",
     webapp: "https://youtube-clone1000.netlify.app/",
   },
   // {
@@ -390,7 +453,7 @@ Note: This is a demo version created for portfolio display. The original project
     "A complete, fully-functional e-commerce website built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This project includes a customer-facing online store and a secure admin dashboard for managing products, orders, and users. Integrated with Stripe for seamless and secure payment processing, the platform offers a modern, responsive, and user-friendly shopping experience.",
     image:anon,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap,","Responsive Design","MongoDB", "Express.js", "React.js", "Node.js","Stripe"],
-    category: "react app",
+    category: "website",
     webapp: "https://anon-ecommerce-pk.netlify.app/",
   },
   {
@@ -401,7 +464,7 @@ Note: This is a demo version created for portfolio display. The original project
     " Casmart is a comprehensive digital shopping center platform that brings multiple brands, vendors, and stores into one unified online marketplace. Designed to replicate the experience of a physical shopping mall, it offers users a seamless way to explore, compare, and purchase products from various sellers in one secure ecosystem.",
     image:casmart,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    category: "frontend app",
+    category: "website",
     webapp: "https://casmart-ecommerce-pk.netlify.app/",
   },
   {
@@ -412,7 +475,7 @@ Note: This is a demo version created for portfolio display. The original project
     " Brewly Café offers a warm and inviting digital space where coffee lovers can explore artisanal blends, brewing tips, and signature recipes—from rich espressos and creamy lattes to exotic cold brews. With an elegant design built in HTML, CSS, and JavaScript, the site serves as both a sensory escape and a convenient guide, inspiring visitors to discover new flavors and enjoy the artistry of coffee culture from the comfort of their homes",
     image:css,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    category: "frontend app",
+    category: "website",
     webapp: "https://coffee-0fe5d0.netlify.app/",
   },
   //  {
