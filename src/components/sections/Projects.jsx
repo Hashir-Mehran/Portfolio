@@ -127,14 +127,14 @@ const Projects = ({ openModal, setOpenModal }) => {
             active={toggle === "app"}
             onClick={() => setToggle("app")}
           >
-            React Native-app
+            Mobile App
           </ToggleButton> 
           <Divider />
           <ToggleButton
             active={toggle === "website"}
             onClick={() => setToggle("website")}
           >
-            WebSite
+            Web App
           </ToggleButton> 
         </ToggleButtonGroup>
         <CardContainer>

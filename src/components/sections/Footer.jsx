@@ -107,7 +107,7 @@ const Footer = () => {
           </SocialMediaIcon>
         </SocialMediaIcons>
 
-        <Copyright>&copy; 2025 Hashir Mehran. All rights reserved.</Copyright>
+        <Copyright>&copy; 2026 Hashir Mehran. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
