@@ -289,7 +289,7 @@ This project demonstrates my expertise in mobile systems architecture, performan
     "API Orchestration"
   ],
   category: "app",
-  webapp: "https://pixels-vrnp.onrender.com", 
+  webapp: "https://pixel-web--ldwjot65xt.expo.app/", 
 },
 {
   id: 9,
